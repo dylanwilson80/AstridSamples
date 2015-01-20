@@ -1,11 +1,11 @@
 ﻿using Astrid.Core;
 using Astrid.Framework;
 
-namespace HelloWorld.Windows
+namespace HelloWorld
 {
     public class Game : GameBase
     {
-        public Game(ApplicationBase application) 
+        public Game(ApplicationBase application)
             : base(application)
         {
         }

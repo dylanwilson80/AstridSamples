@@ -35,14 +35,17 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Astrid.Core">
-      <HintPath>..\packages\Astrid.Windows.1.0.5490.38333\lib\net40\Astrid.Core.dll</HintPath>
+    <Reference Include="Astrid.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Astrid.Framework.1.0.0.0\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.FarseerPhysics">
-      <HintPath>..\packages\Astrid.Windows.1.0.5490.38333\lib\net40\Astrid.FarseerPhysics.dll</HintPath>
+    <Reference Include="Astrid.FarseerPhysics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Astrid.Framework.1.0.0.0\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.FarseerPhysics.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.Framework">
-      <HintPath>..\packages\Astrid.Windows.1.0.5490.38333\lib\net40\Astrid.Framework.dll</HintPath>
+    <Reference Include="Astrid.Framework, Version=1.0.5498.39875, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Astrid.Framework.1.0.0.0\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Astrid.Windows">
       <HintPath>..\packages\Astrid.Windows.1.0.5490.38333\lib\net40\Astrid.Windows.dll</HintPath>
@@ -68,13 +71,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWorld\HelloWorld.csproj">
+      <Project>{0D032A2B-3FD4-4924-A361-707940A95631}</Project>
+      <Name>HelloWorld</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
