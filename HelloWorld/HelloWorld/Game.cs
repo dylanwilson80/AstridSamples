@@ -20,10 +20,9 @@ namespace HelloWorld
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             _texture = AssetManager.Load<Texture>("AstridLogo.png");
-
-            // TODO: Get screen width and height from GraphicsDevice
-            var x = 400 - _texture.Width / 2;
-            var y = 240 - _texture.Height / 2;
+            
+            var x = GraphicsDevice.Width / 2 - _texture.Width / 2;
+            var y = GraphicsDevice.Height / 2 - _texture.Height / 2;
             _position = new Vector2(x, y);
         }
 
