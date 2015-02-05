@@ -39,19 +39,16 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Astrid.Core">
-      <HintPath>..\packages\Astrid.Framework.1.1.3\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Core.dll</HintPath>
+      <HintPath>..\packages\Astrid.Framework.1.1.30-alpha\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Core.dll</HintPath>
     </Reference>
     <Reference Include="Astrid.FarseerPhysics">
-      <HintPath>..\packages\Astrid.Framework.1.1.3\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.FarseerPhysics.dll</HintPath>
+      <HintPath>..\packages\Astrid.Framework.1.1.30-alpha\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.FarseerPhysics.dll</HintPath>
     </Reference>
     <Reference Include="Astrid.Framework">
-      <HintPath>..\packages\Astrid.Framework.1.1.3\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Framework.dll</HintPath>
-    </Reference>
-    <Reference Include="Common.Logging.Portable">
-      <HintPath>..\packages\Common.Logging.Portable.2.3.1\lib\portable-win+net40+sl40+wp7\Common.Logging.Portable.dll</HintPath>
+      <HintPath>..\packages\Astrid.Framework.1.1.30-alpha\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
