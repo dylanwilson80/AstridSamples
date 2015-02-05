@@ -41,21 +41,26 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Astrid.Android">
-      <HintPath>..\packages\Astrid.Android.1.1.30-alpha\lib\MonoAndroid22\Astrid.Android.dll</HintPath>
+    <Reference Include="Astrid.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Astrid.Android.1.1.6\lib\MonoAndroid22\Astrid.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.Core">
-      <HintPath>..\packages\Astrid.Framework.1.1.30-alpha\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Core.dll</HintPath>
+    <Reference Include="Astrid.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Astrid.Framework.1.1.6\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.FarseerPhysics">
-      <HintPath>..\packages\Astrid.Framework.1.1.30-alpha\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.FarseerPhysics.dll</HintPath>
+    <Reference Include="Astrid.FarseerPhysics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Astrid.Framework.1.1.6\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.FarseerPhysics.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.Framework">
-      <HintPath>..\packages\Astrid.Framework.1.1.30-alpha\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Framework.dll</HintPath>
+    <Reference Include="Astrid.Framework, Version=1.0.5514.21385, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Astrid.Framework.1.1.6\lib\portable-net40+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="Newtonsoft.Json">
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK-1.0" />
