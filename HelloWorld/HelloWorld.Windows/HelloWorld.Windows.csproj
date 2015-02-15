@@ -37,27 +37,25 @@
   <ItemGroup>
     <Reference Include="Astrid.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Astrid.Framework.1.1.6\lib\net45\Astrid.Core.dll</HintPath>
+      <HintPath>..\packages\Astrid.Framework.1.1.7\lib\net45\Astrid.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.FarseerPhysics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Astrid.Framework.1.1.6\lib\net45\Astrid.FarseerPhysics.dll</HintPath>
+    <Reference Include="Astrid.FarseerPhysics">
+      <HintPath>..\packages\Astrid.Framework.1.1.7\lib\net45\Astrid.FarseerPhysics.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.Framework, Version=1.0.5514.21385, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Astrid.Framework, Version=1.0.5521.21922, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Astrid.Framework.1.1.6\lib\net45\Astrid.Framework.dll</HintPath>
+      <HintPath>..\packages\Astrid.Framework.1.1.7\lib\net45\Astrid.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Astrid.Windows, Version=1.0.5514.21386, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Astrid.Windows, Version=1.0.5521.21923, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Astrid.Windows.1.1.6\lib\net40\Astrid.Windows.dll</HintPath>
+      <HintPath>..\packages\Astrid.Windows.1.1.7\lib\net40\Astrid.Windows.dll</HintPath>
     </Reference>
-    <Reference Include="NAudio, Version=1.7.2.19, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\NAudio.1.7.2\lib\net35\NAudio.dll</HintPath>
+    <Reference Include="CSCore">
+      <HintPath>..\packages\CSCore.1.0.0.0\lib\net35-client\CSCore.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <HintPath>..\packages\OpenTK.1.1.1589.5942\lib\NET40\OpenTK.dll</HintPath>
