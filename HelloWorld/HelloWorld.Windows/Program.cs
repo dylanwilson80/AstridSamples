@@ -8,9 +8,9 @@ namespace HelloWorld.Windows
         {
             var config = new WindowsApplicationConfig
             {
-                Title = "Hello Astrid",
-                Width = 800,
-                Height = 480,
+                WindowTitle = "Hello Astrid",
+                WindowWidth = 800,
+                WindowHeight = 480,
                 ContentPath = "Content"
             };
 

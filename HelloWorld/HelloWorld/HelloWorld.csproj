@@ -38,14 +38,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Astrid.Core">
-      <HintPath>..\packages\Astrid.Framework.1.1.7\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Core.dll</HintPath>
+    <Reference Include="Astrid.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Astrid.Framework.1.1.11\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Astrid.FarseerPhysics">
-      <HintPath>..\packages\Astrid.Framework.1.1.7\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.FarseerPhysics.dll</HintPath>
-    </Reference>
-    <Reference Include="Astrid.Framework">
-      <HintPath>..\packages\Astrid.Framework.1.1.7\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Framework.dll</HintPath>
+    <Reference Include="Astrid.Framework, Version=1.0.5625.21434, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Astrid.Framework.1.1.11\lib\portable-net45+sl50+MonoAndroid10+xamarinios10+MonoTouch10\Astrid.Framework.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>

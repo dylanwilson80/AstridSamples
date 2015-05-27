@@ -1,7 +1,5 @@
-﻿using Astrid.Core;
-using Astrid.Framework;
-using Astrid.Framework.Assets;
-using Astrid.Framework.Graphics;
+﻿using Astrid;
+using Astrid.Core;
 
 namespace HelloWorld
 {
